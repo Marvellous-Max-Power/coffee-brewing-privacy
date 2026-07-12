@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutzerklärung / Privacy Policy – Coffee Brewing</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --accent: #AB5866;
+    --bg: #ffffff;
+    --fg: #1c1c1e;
+    --muted: #6b6b70;
+    --border: #e5e5ea;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121214;
+      --fg: #f2f2f3;
+      --muted: #9a9a9e;
+      --border: #2c2c2e;
+    }
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.55;
+  }
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  h1 {
+    font-size: 1.6rem;
+    margin-bottom: 4px;
+  }
+  h2 {
+    font-size: 1.1rem;
+    margin-top: 2.2em;
+    color: var(--accent);
+  }
+  .updated {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 2em;
+  }
+  .lang-switch {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 2.5em;
+  }
+  .lang-switch button {
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--fg);
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  .lang-switch button.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+  section[data-lang] {
+    display: none;
+  }
+  section[data-lang].active {
+    display: block;
+  }
+  strong {
+    color: var(--fg);
+  }
+  a {
+    color: var(--accent);
+  }
+  footer {
+    margin-top: 3em;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="lang-switch">
+    <button id="btn-de" class="active" onclick="setLang('de')">Deutsch</button>
+    <button id="btn-en" onclick="setLang('en')">English</button>
+  </div>
+
+  <section data-lang="de" class="active">
+    <h1>Datenschutzerklärung – Coffee Brewing</h1>
+    <p class="updated">Stand: 12. Juli 2026</p>
+
+    <h2>Kurzfassung</h2>
+    <p>Coffee Brewing sammelt, speichert oder überträgt <strong>keine personenbezogenen Daten</strong>. Alle Rezepte, Zutaten, Einstellungen und sonstigen Inhalte verbleiben ausschließlich lokal auf deinem Gerät.</p>
+
+    <h2>Keine Datenerhebung</h2>
+    <p>Die App enthält keinerlei Analyse-, Tracking- oder Werbe-Software Dritter. Es findet keine Kommunikation mit Servern statt – Coffee Brewing funktioniert vollständig offline.</p>
+
+    <h2>Lokale Speicherung</h2>
+    <p>Rezepte, Zutaten, Zubereitungsschritte sowie deine Einstellungen (z.B. Spracheinstellung, bevorzugte Einheiten) werden mit Apples SwiftData-Framework ausschließlich auf deinem Gerät gespeichert. Diese Daten verlassen dein Gerät nicht, außer du sicherst sie selbst über eine von dir eingerichtete iCloud- oder Geräte-Sicherung.</p>
+
+    <h2>Kein Konto erforderlich</h2>
+    <p>Die Nutzung von Coffee Brewing erfordert keine Registrierung, keine Anmeldung und keine Angabe persönlicher Daten.</p>
+
+    <h2>Keine Weitergabe an Dritte</h2>
+    <p>Da keine Daten erhoben werden, findet auch keine Weitergabe an Dritte statt.</p>
+
+    <h2>Berechtigungen</h2>
+    <p>Coffee Brewing fragt keine Geräteberechtigungen ab (kein Zugriff auf Kamera, Standort, Kontakte, Fotos o.ä.).</p>
+
+    <h2>Kinder</h2>
+    <p>Coffee Brewing richtet sich nicht speziell an Kinder und erhebt auch von Kindern keine Daten.</p>
+
+    <h2>Änderungen dieser Erklärung</h2>
+    <p>Sollten sich zukünftig Funktionen der App ändern, die eine Datenerhebung mit sich bringen (z.B. optionale iCloud-Synchronisierung), wird diese Datenschutzerklärung entsprechend aktualisiert.</p>
+
+    <h2>Kontakt</h2>
+    <p>Bei Fragen zu dieser Datenschutzerklärung: <a href="mailto:brandung.neblig.1b@icloud.com">brandung.neblig.1b@icloud.com</a></p>
+  </section>
+
+  <section data-lang="en">
+    <h1>Privacy Policy – Coffee Brewing</h1>
+    <p class="updated">Last updated: July 12, 2026</p>
+
+    <h2>Summary</h2>
+    <p>Coffee Brewing does not collect, store, or transmit <strong>any personal data</strong>. All recipes, ingredients, settings, and other content stay exclusively on your device.</p>
+
+    <h2>No data collection</h2>
+    <p>The app contains no third-party analytics, tracking, or advertising software. It does not communicate with any servers – Coffee Brewing works entirely offline.</p>
+
+    <h2>Local storage only</h2>
+    <p>Recipes, ingredients, brewing steps, and your settings (e.g. language, preferred units) are stored exclusively on your device using Apple's SwiftData framework. This data never leaves your device, unless you back it up yourself via iCloud or a device backup you set up.</p>
+
+    <h2>No account required</h2>
+    <p>Using Coffee Brewing does not require registration, sign-in, or providing any personal information.</p>
+
+    <h2>No sharing with third parties</h2>
+    <p>Since no data is collected, none is shared with third parties either.</p>
+
+    <h2>Permissions</h2>
+    <p>Coffee Brewing does not request any device permissions (no access to camera, location, contacts, photos, etc.).</p>
+
+    <h2>Children</h2>
+    <p>Coffee Brewing is not directed at children and does not knowingly collect data from children.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>Should future app features introduce data collection (e.g. optional iCloud sync), this privacy policy will be updated accordingly.</p>
+
+    <h2>Contact</h2>
+    <p>For questions about this privacy policy: <a href="mailto:brandung.neblig.1b@icloud.com">brandung.neblig.1b@icloud.com</a></p>
+  </section>
+
+  <footer>Coffee Brewing</footer>
+</main>
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('section[data-lang]').forEach(function (el) {
+      el.classList.toggle('active', el.dataset.lang === lang);
+    });
+    document.getElementById('btn-de').classList.toggle('active', lang === 'de');
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+  }
+</script>
+</body>
+</html>
